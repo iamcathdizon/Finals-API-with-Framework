@@ -1,0 +1,1075 @@
+CRITICAL - 2023-05-26 00:14:23 --> Invalid file: "stuents/add.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('stuents/add.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('stuents/add', [], true)
+ 3 APPPATH\Controllers\StudentsController.php(16): view('stuents/add')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\StudentsController->createStudent()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentsController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\cathe\\OneDrive\\Desktop\\Dizon Catherin Finals\\public\\index.php')
+CRITICAL - 2023-05-26 00:14:31 --> Invalid file: "stuents/add.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('stuents/add.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('stuents/add', [], true)
+ 3 APPPATH\Controllers\StudentsController.php(16): view('stuents/add')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\StudentsController->createStudent()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentsController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\cathe\\OneDrive\\Desktop\\Dizon Catherin Finals\\public\\index.php')
+CRITICAL - 2023-05-26 06:39:56 --> Undefined variable $studentNumber
+in APPPATH\Views\students\add.php on line 11.
+ 1 APPPATH\Views\students\add.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $studentNumber', 'C:\\Users\\cathe\\OneDrive\\Desktop\\Dizon Catherin Finals\\app\\Views\\students\\add.php', 11)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\Users\\cathe\\OneDrive\\Desktop\\Dizon Catherin Finals\\app\\Views\\students\\add.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('students/add', [], true)
+ 5 APPPATH\Controllers\StudentsController.php(18): view('students/add', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\StudentsController->createStudent()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentsController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\cathe\\OneDrive\\Desktop\\Dizon Catherin Finals\\public\\index.php')
+CRITICAL - 2023-05-26 06:40:01 --> Undefined variable $studentNumber
+in APPPATH\Views\students\add.php on line 11.
+ 1 APPPATH\Views\students\add.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $studentNumber', 'C:\\Users\\cathe\\OneDrive\\Desktop\\Dizon Catherin Finals\\app\\Views\\students\\add.php', 11)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\Users\\cathe\\OneDrive\\Desktop\\Dizon Catherin Finals\\app\\Views\\students\\add.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('students/add', [], true)
+ 5 APPPATH\Controllers\StudentsController.php(18): view('students/add', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\StudentsController->createStudent()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentsController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\cathe\\OneDrive\\Desktop\\Dizon Catherin Finals\\public\\index.php')
+CRITICAL - 2023-05-26 06:40:01 --> Undefined variable $studentNumber
+in APPPATH\Views\students\add.php on line 11.
+ 1 APPPATH\Views\students\add.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $studentNumber', 'C:\\Users\\cathe\\OneDrive\\Desktop\\Dizon Catherin Finals\\app\\Views\\students\\add.php', 11)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\Users\\cathe\\OneDrive\\Desktop\\Dizon Catherin Finals\\app\\Views\\students\\add.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('students/add', [], true)
+ 5 APPPATH\Controllers\StudentsController.php(18): view('students/add', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\StudentsController->createStudent()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentsController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\cathe\\OneDrive\\Desktop\\Dizon Catherin Finals\\public\\index.php')
+CRITICAL - 2023-05-26 06:40:03 --> Undefined variable $studentNumber
+in APPPATH\Views\students\add.php on line 11.
+ 1 APPPATH\Views\students\add.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $studentNumber', 'C:\\Users\\cathe\\OneDrive\\Desktop\\Dizon Catherin Finals\\app\\Views\\students\\add.php', 11)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\Users\\cathe\\OneDrive\\Desktop\\Dizon Catherin Finals\\app\\Views\\students\\add.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('students/add', [], true)
+ 5 APPPATH\Controllers\StudentsController.php(18): view('students/add', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\StudentsController->createStudent()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentsController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\cathe\\OneDrive\\Desktop\\Dizon Catherin Finals\\public\\index.php')
+CRITICAL - 2023-05-26 06:40:06 --> Undefined variable $studentNumber
+in APPPATH\Views\students\add.php on line 11.
+ 1 APPPATH\Views\students\add.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $studentNumber', 'C:\\Users\\cathe\\OneDrive\\Desktop\\Dizon Catherin Finals\\app\\Views\\students\\add.php', 11)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\Users\\cathe\\OneDrive\\Desktop\\Dizon Catherin Finals\\app\\Views\\students\\add.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('students/add', [], true)
+ 5 APPPATH\Controllers\StudentsController.php(18): view('students/add', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\StudentsController->createStudent()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentsController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\cathe\\OneDrive\\Desktop\\Dizon Catherin Finals\\public\\index.php')
+CRITICAL - 2023-05-26 06:41:22 --> Undefined variable $studentNumber
+in APPPATH\Views\students\add.php on line 11.
+ 1 APPPATH\Views\students\add.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $studentNumber', 'C:\\Users\\cathe\\OneDrive\\Desktop\\Dizon Catherin Finals\\app\\Views\\students\\add.php', 11)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\Users\\cathe\\OneDrive\\Desktop\\Dizon Catherin Finals\\app\\Views\\students\\add.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('students/add', [], true)
+ 5 APPPATH\Controllers\StudentsController.php(18): view('students/add', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\StudentsController->createStudent()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentsController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\cathe\\OneDrive\\Desktop\\Dizon Catherin Finals\\public\\index.php')
+CRITICAL - 2023-05-26 06:41:23 --> Undefined variable $studentNumber
+in APPPATH\Views\students\add.php on line 11.
+ 1 APPPATH\Views\students\add.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $studentNumber', 'C:\\Users\\cathe\\OneDrive\\Desktop\\Dizon Catherin Finals\\app\\Views\\students\\add.php', 11)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\Users\\cathe\\OneDrive\\Desktop\\Dizon Catherin Finals\\app\\Views\\students\\add.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('students/add', [], true)
+ 5 APPPATH\Controllers\StudentsController.php(18): view('students/add', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\StudentsController->createStudent()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentsController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\cathe\\OneDrive\\Desktop\\Dizon Catherin Finals\\public\\index.php')
+CRITICAL - 2023-05-26 06:41:23 --> Undefined variable $studentNumber
+in APPPATH\Views\students\add.php on line 11.
+ 1 APPPATH\Views\students\add.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $studentNumber', 'C:\\Users\\cathe\\OneDrive\\Desktop\\Dizon Catherin Finals\\app\\Views\\students\\add.php', 11)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\Users\\cathe\\OneDrive\\Desktop\\Dizon Catherin Finals\\app\\Views\\students\\add.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('students/add', [], true)
+ 5 APPPATH\Controllers\StudentsController.php(18): view('students/add', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\StudentsController->createStudent()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentsController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\cathe\\OneDrive\\Desktop\\Dizon Catherin Finals\\public\\index.php')
+CRITICAL - 2023-05-26 06:41:33 --> Undefined variable $studentNumber
+in APPPATH\Views\students\add.php on line 11.
+ 1 APPPATH\Views\students\add.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $studentNumber', 'C:\\Users\\cathe\\OneDrive\\Desktop\\Dizon Catherin Finals\\app\\Views\\students\\add.php', 11)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\Users\\cathe\\OneDrive\\Desktop\\Dizon Catherin Finals\\app\\Views\\students\\add.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('students/add', [], true)
+ 5 APPPATH\Controllers\StudentsController.php(18): view('students/add', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\StudentsController->createStudent()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentsController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\cathe\\OneDrive\\Desktop\\Dizon Catherin Finals\\public\\index.php')
+CRITICAL - 2023-05-26 06:42:07 --> Undefined variable $studentNumber
+in APPPATH\Views\students\add.php on line 11.
+ 1 APPPATH\Views\students\add.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $studentNumber', 'C:\\Users\\cathe\\OneDrive\\Desktop\\Dizon Catherin Finals\\app\\Views\\students\\add.php', 11)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\Users\\cathe\\OneDrive\\Desktop\\Dizon Catherin Finals\\app\\Views\\students\\add.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('students/add', [], true)
+ 5 APPPATH\Controllers\StudentsController.php(18): view('students/add', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\StudentsController->createStudent()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentsController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\cathe\\OneDrive\\Desktop\\Dizon Catherin Finals\\public\\index.php')
+CRITICAL - 2023-05-26 06:43:33 --> Undefined variable $studentNumber
+in APPPATH\Views\students\add.php on line 11.
+ 1 APPPATH\Views\students\add.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $studentNumber', 'C:\\Users\\cathe\\OneDrive\\Desktop\\Dizon Catherin Finals\\app\\Views\\students\\add.php', 11)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\Users\\cathe\\OneDrive\\Desktop\\Dizon Catherin Finals\\app\\Views\\students\\add.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('students/add', [], true)
+ 5 APPPATH\Controllers\StudentsController.php(18): view('students/add', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\StudentsController->createStudent()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentsController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\cathe\\OneDrive\\Desktop\\Dizon Catherin Finals\\public\\index.php')
+CRITICAL - 2023-05-26 08:27:17 --> Undefined variable $imageName
+in APPPATH\Controllers\StudentsController.php on line 42.
+ 1 APPPATH\Controllers\StudentsController.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $imageName', 'C:\\Users\\cathe\\OneDrive\\Desktop\\Dizon Catherin Finals\\app\\Controllers\\StudentsController.php', 42)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\StudentsController->storeStudent()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentsController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\cathe\\OneDrive\\Desktop\\Dizon Catherin Finals\\public\\index.php')
+CRITICAL - 2023-05-26 08:29:49 --> Undefined variable $imageName
+in APPPATH\Controllers\StudentsController.php on line 42.
+ 1 APPPATH\Controllers\StudentsController.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $imageName', 'C:\\Users\\cathe\\OneDrive\\Desktop\\Dizon Catherin Finals\\app\\Controllers\\StudentsController.php', 42)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\StudentsController->storeStudent()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentsController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\cathe\\OneDrive\\Desktop\\Dizon Catherin Finals\\public\\index.php')
+CRITICAL - 2023-05-26 08:30:51 --> Undefined variable $insertStudents
+in APPPATH\Controllers\StudentsController.php on line 44.
+ 1 APPPATH\Controllers\StudentsController.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $insertStudents', 'C:\\Users\\cathe\\OneDrive\\Desktop\\Dizon Catherin Finals\\app\\Controllers\\StudentsController.php', 44)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\StudentsController->storeStudent()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentsController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\cathe\\OneDrive\\Desktop\\Dizon Catherin Finals\\public\\index.php')
+ERROR - 2023-05-26 08:31:28 --> Error connecting to the database: mysqli_sql_exception: Unknown database 'finals_framwork' in C:\Users\cathe\OneDrive\Desktop\Dizon Catherin Finals\system\Database\MySQLi\Connection.php:174
+Stack trace:
+#0 C:\Users\cathe\OneDrive\Desktop\Dizon Catherin Finals\system\Database\MySQLi\Connection.php(174): mysqli->real_connect('localhost', 'root', '', 'finals_framwork', 3306, '', 0)
+#1 C:\Users\cathe\OneDrive\Desktop\Dizon Catherin Finals\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\Users\cathe\OneDrive\Desktop\Dizon Catherin Finals\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\Users\cathe\OneDrive\Desktop\Dizon Catherin Finals\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\Users\cathe\OneDrive\Desktop\Dizon Catherin Finals\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\Users\cathe\OneDrive\Desktop\Dizon Catherin Finals\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\Users\cathe\OneDrive\Desktop\Dizon Catherin Finals\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\Users\cathe\OneDrive\Desktop\Dizon Catherin Finals\app\Controllers\StudentsController.php(44): CodeIgniter\Model->insert(Array)
+#8 C:\Users\cathe\OneDrive\Desktop\Dizon Catherin Finals\system\CodeIgniter.php(934): App\Controllers\StudentsController->storeStudent()
+#9 C:\Users\cathe\OneDrive\Desktop\Dizon Catherin Finals\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentsController))
+#10 C:\Users\cathe\OneDrive\Desktop\Dizon Catherin Finals\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\Users\cathe\OneDrive\Desktop\Dizon Catherin Finals\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 C:\Users\cathe\OneDrive\Desktop\Dizon Catherin Finals\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\cathe\\...')
+#13 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Unknown database 'finals_framwork' in C:\Users\cathe\OneDrive\Desktop\Dizon Catherin Finals\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 C:\Users\cathe\OneDrive\Desktop\Dizon Catherin Finals\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\Users\cathe\OneDrive\Desktop\Dizon Catherin Finals\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\Users\cathe\OneDrive\Desktop\Dizon Catherin Finals\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#3 C:\Users\cathe\OneDrive\Desktop\Dizon Catherin Finals\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#4 C:\Users\cathe\OneDrive\Desktop\Dizon Catherin Finals\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#5 C:\Users\cathe\OneDrive\Desktop\Dizon Catherin Finals\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#6 C:\Users\cathe\OneDrive\Desktop\Dizon Catherin Finals\app\Controllers\StudentsController.php(44): CodeIgniter\Model->insert(Array)
+#7 C:\Users\cathe\OneDrive\Desktop\Dizon Catherin Finals\system\CodeIgniter.php(934): App\Controllers\StudentsController->storeStudent()
+#8 C:\Users\cathe\OneDrive\Desktop\Dizon Catherin Finals\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentsController))
+#9 C:\Users\cathe\OneDrive\Desktop\Dizon Catherin Finals\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\cathe\OneDrive\Desktop\Dizon Catherin Finals\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\cathe\OneDrive\Desktop\Dizon Catherin Finals\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\cathe\\...')
+#12 {main}
+CRITICAL - 2023-05-26 08:31:28 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'finals_framwork'
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tbl_students` (`student_name`, `student_lastname`, `student_address`, `student_email`, `student_contact`, `student_course`, `student_year`, `student_section`) VALUES (:student_name:, :student_lastname:, :student_address:, :student_email:, :student_contact:, :student_course:, :student_year:, :student_section:)', [...], false)
+ 3 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 4 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 5 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 6 APPPATH\Controllers\StudentsController.php(44): CodeIgniter\Model->insert([...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\StudentsController->storeStudent()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentsController))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\cathe\\OneDrive\\Desktop\\Dizon Catherin Finals\\public\\index.php')
+ERROR - 2023-05-26 08:58:44 --> mysqli_sql_exception: Column 'student_address' cannot be null in C:\Users\cathe\OneDrive\Desktop\Dizon Catherin Finals\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\Users\cathe\OneDrive\Desktop\Dizon Catherin Finals\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `tb...', 0)
+#1 C:\Users\cathe\OneDrive\Desktop\Dizon Catherin Finals\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\Users\cathe\OneDrive\Desktop\Dizon Catherin Finals\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\Users\cathe\OneDrive\Desktop\Dizon Catherin Finals\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\Users\cathe\OneDrive\Desktop\Dizon Catherin Finals\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\Users\cathe\OneDrive\Desktop\Dizon Catherin Finals\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\Users\cathe\OneDrive\Desktop\Dizon Catherin Finals\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\Users\cathe\OneDrive\Desktop\Dizon Catherin Finals\app\Controllers\StudentsController.php(44): CodeIgniter\Model->insert(Array)
+#8 C:\Users\cathe\OneDrive\Desktop\Dizon Catherin Finals\system\CodeIgniter.php(934): App\Controllers\StudentsController->storeStudent()
+#9 C:\Users\cathe\OneDrive\Desktop\Dizon Catherin Finals\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentsController))
+#10 C:\Users\cathe\OneDrive\Desktop\Dizon Catherin Finals\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\Users\cathe\OneDrive\Desktop\Dizon Catherin Finals\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 C:\Users\cathe\OneDrive\Desktop\Dizon Catherin Finals\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\cathe\\...')
+#13 {main}
+CRITICAL - 2023-05-26 08:58:45 --> Column 'student_address' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `tbl_students` (`student_name`, `student_lastname`, `student_address`, `student_email`, `student_contact`, `student_course`, `student_year`, `student_section`) VALUES (\'bamban\', \'dizon\', NULL, NULL, \'09876543212\', \'bsit\', \'3rd year\', \'a\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tbl_students` (`student_name`, `student_lastname`, `student_address`, `student_email`, `student_contact`, `student_course`, `student_year`, `student_section`) VALUES (\'bamban\', \'dizon\', NULL, NULL, \'09876543212\', \'bsit\', \'3rd year\', \'a\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tbl_students` (`student_name`, `student_lastname`, `student_address`, `student_email`, `student_contact`, `student_course`, `student_year`, `student_section`) VALUES (\'bamban\', \'dizon\', NULL, NULL, \'09876543212\', \'bsit\', \'3rd year\', \'a\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tbl_students` (`student_name`, `student_lastname`, `student_address`, `student_email`, `student_contact`, `student_course`, `student_year`, `student_section`) VALUES (:student_name:, :student_lastname:, :student_address:, :student_email:, :student_contact:, :student_course:, :student_year:, :student_section:)', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\StudentsController.php(44): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\StudentsController->storeStudent()
+10 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentsController))
+11 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\cathe\\OneDrive\\Desktop\\Dizon Catherin Finals\\public\\index.php')
+ERROR - 2023-05-26 08:59:27 --> mysqli_sql_exception: Column 'student_address' cannot be null in C:\Users\cathe\OneDrive\Desktop\Dizon Catherin Finals\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\Users\cathe\OneDrive\Desktop\Dizon Catherin Finals\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `tb...', 0)
+#1 C:\Users\cathe\OneDrive\Desktop\Dizon Catherin Finals\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\Users\cathe\OneDrive\Desktop\Dizon Catherin Finals\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\Users\cathe\OneDrive\Desktop\Dizon Catherin Finals\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\Users\cathe\OneDrive\Desktop\Dizon Catherin Finals\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\Users\cathe\OneDrive\Desktop\Dizon Catherin Finals\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\Users\cathe\OneDrive\Desktop\Dizon Catherin Finals\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\Users\cathe\OneDrive\Desktop\Dizon Catherin Finals\app\Controllers\StudentsController.php(44): CodeIgniter\Model->insert(Array)
+#8 C:\Users\cathe\OneDrive\Desktop\Dizon Catherin Finals\system\CodeIgniter.php(934): App\Controllers\StudentsController->storeStudent()
+#9 C:\Users\cathe\OneDrive\Desktop\Dizon Catherin Finals\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentsController))
+#10 C:\Users\cathe\OneDrive\Desktop\Dizon Catherin Finals\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\Users\cathe\OneDrive\Desktop\Dizon Catherin Finals\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 C:\Users\cathe\OneDrive\Desktop\Dizon Catherin Finals\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\cathe\\...')
+#13 {main}
+CRITICAL - 2023-05-26 08:59:27 --> Column 'student_address' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `tbl_students` (`student_name`, `student_lastname`, `student_address`, `student_email`, `student_contact`, `student_course`, `student_year`, `student_section`) VALUES (\'bamban\', \'dizon\', NULL, NULL, \'09876543212\', \'bsit\', \'3rd year\', \'a\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tbl_students` (`student_name`, `student_lastname`, `student_address`, `student_email`, `student_contact`, `student_course`, `student_year`, `student_section`) VALUES (\'bamban\', \'dizon\', NULL, NULL, \'09876543212\', \'bsit\', \'3rd year\', \'a\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tbl_students` (`student_name`, `student_lastname`, `student_address`, `student_email`, `student_contact`, `student_course`, `student_year`, `student_section`) VALUES (\'bamban\', \'dizon\', NULL, NULL, \'09876543212\', \'bsit\', \'3rd year\', \'a\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tbl_students` (`student_name`, `student_lastname`, `student_address`, `student_email`, `student_contact`, `student_course`, `student_year`, `student_section`) VALUES (:student_name:, :student_lastname:, :student_address:, :student_email:, :student_contact:, :student_course:, :student_year:, :student_section:)', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\StudentsController.php(44): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\StudentsController->storeStudent()
+10 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentsController))
+11 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\cathe\\OneDrive\\Desktop\\Dizon Catherin Finals\\public\\index.php')
+ERROR - 2023-05-26 09:00:19 --> mysqli_sql_exception: Column 'student_email' cannot be null in C:\Users\cathe\OneDrive\Desktop\Dizon Catherin Finals\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\Users\cathe\OneDrive\Desktop\Dizon Catherin Finals\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `tb...', 0)
+#1 C:\Users\cathe\OneDrive\Desktop\Dizon Catherin Finals\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\Users\cathe\OneDrive\Desktop\Dizon Catherin Finals\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\Users\cathe\OneDrive\Desktop\Dizon Catherin Finals\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\Users\cathe\OneDrive\Desktop\Dizon Catherin Finals\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\Users\cathe\OneDrive\Desktop\Dizon Catherin Finals\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\Users\cathe\OneDrive\Desktop\Dizon Catherin Finals\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\Users\cathe\OneDrive\Desktop\Dizon Catherin Finals\app\Controllers\StudentsController.php(44): CodeIgniter\Model->insert(Array)
+#8 C:\Users\cathe\OneDrive\Desktop\Dizon Catherin Finals\system\CodeIgniter.php(934): App\Controllers\StudentsController->storeStudent()
+#9 C:\Users\cathe\OneDrive\Desktop\Dizon Catherin Finals\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentsController))
+#10 C:\Users\cathe\OneDrive\Desktop\Dizon Catherin Finals\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\Users\cathe\OneDrive\Desktop\Dizon Catherin Finals\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 C:\Users\cathe\OneDrive\Desktop\Dizon Catherin Finals\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\cathe\\...')
+#13 {main}
+CRITICAL - 2023-05-26 09:00:19 --> Column 'student_email' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `tbl_students` (`student_name`, `student_lastname`, `student_address`, `student_email`, `student_contact`, `student_course`, `student_year`, `student_section`) VALUES (\'cath\', \'dizon\', \'\', NULL, \'09876543212\', \'bsit\', \'3rd year\', \'a\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tbl_students` (`student_name`, `student_lastname`, `student_address`, `student_email`, `student_contact`, `student_course`, `student_year`, `student_section`) VALUES (\'cath\', \'dizon\', \'\', NULL, \'09876543212\', \'bsit\', \'3rd year\', \'a\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tbl_students` (`student_name`, `student_lastname`, `student_address`, `student_email`, `student_contact`, `student_course`, `student_year`, `student_section`) VALUES (\'cath\', \'dizon\', \'\', NULL, \'09876543212\', \'bsit\', \'3rd year\', \'a\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tbl_students` (`student_name`, `student_lastname`, `student_address`, `student_email`, `student_contact`, `student_course`, `student_year`, `student_section`) VALUES (:student_name:, :student_lastname:, :student_address:, :student_email:, :student_contact:, :student_course:, :student_year:, :student_section:)', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\StudentsController.php(44): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\StudentsController->storeStudent()
+10 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentsController))
+11 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\cathe\\OneDrive\\Desktop\\Dizon Catherin Finals\\public\\index.php')
+ERROR - 2023-05-26 09:00:47 --> mysqli_sql_exception: Column 'student_email' cannot be null in C:\Users\cathe\OneDrive\Desktop\Dizon Catherin Finals\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\Users\cathe\OneDrive\Desktop\Dizon Catherin Finals\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `tb...', 0)
+#1 C:\Users\cathe\OneDrive\Desktop\Dizon Catherin Finals\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\Users\cathe\OneDrive\Desktop\Dizon Catherin Finals\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\Users\cathe\OneDrive\Desktop\Dizon Catherin Finals\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\Users\cathe\OneDrive\Desktop\Dizon Catherin Finals\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\Users\cathe\OneDrive\Desktop\Dizon Catherin Finals\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\Users\cathe\OneDrive\Desktop\Dizon Catherin Finals\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\Users\cathe\OneDrive\Desktop\Dizon Catherin Finals\app\Controllers\StudentsController.php(44): CodeIgniter\Model->insert(Array)
+#8 C:\Users\cathe\OneDrive\Desktop\Dizon Catherin Finals\system\CodeIgniter.php(934): App\Controllers\StudentsController->storeStudent()
+#9 C:\Users\cathe\OneDrive\Desktop\Dizon Catherin Finals\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentsController))
+#10 C:\Users\cathe\OneDrive\Desktop\Dizon Catherin Finals\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\Users\cathe\OneDrive\Desktop\Dizon Catherin Finals\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 C:\Users\cathe\OneDrive\Desktop\Dizon Catherin Finals\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\cathe\\...')
+#13 {main}
+CRITICAL - 2023-05-26 09:00:47 --> Column 'student_email' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `tbl_students` (`student_name`, `student_lastname`, `student_address`, `student_email`, `student_contact`, `student_course`, `student_year`, `student_section`) VALUES (\'cath\', \'dizon\', \'\', NULL, \'09876543212\', \'bsit\', \'3rd year\', \'a\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tbl_students` (`student_name`, `student_lastname`, `student_address`, `student_email`, `student_contact`, `student_course`, `student_year`, `student_section`) VALUES (\'cath\', \'dizon\', \'\', NULL, \'09876543212\', \'bsit\', \'3rd year\', \'a\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tbl_students` (`student_name`, `student_lastname`, `student_address`, `student_email`, `student_contact`, `student_course`, `student_year`, `student_section`) VALUES (\'cath\', \'dizon\', \'\', NULL, \'09876543212\', \'bsit\', \'3rd year\', \'a\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tbl_students` (`student_name`, `student_lastname`, `student_address`, `student_email`, `student_contact`, `student_course`, `student_year`, `student_section`) VALUES (:student_name:, :student_lastname:, :student_address:, :student_email:, :student_contact:, :student_course:, :student_year:, :student_section:)', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\StudentsController.php(44): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\StudentsController->storeStudent()
+10 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentsController))
+11 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\cathe\\OneDrive\\Desktop\\Dizon Catherin Finals\\public\\index.php')
+ERROR - 2023-05-26 09:01:31 --> mysqli_sql_exception: Column 'student_email' cannot be null in C:\Users\cathe\OneDrive\Desktop\Dizon Catherin Finals\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\Users\cathe\OneDrive\Desktop\Dizon Catherin Finals\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `tb...', 0)
+#1 C:\Users\cathe\OneDrive\Desktop\Dizon Catherin Finals\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\Users\cathe\OneDrive\Desktop\Dizon Catherin Finals\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\Users\cathe\OneDrive\Desktop\Dizon Catherin Finals\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\Users\cathe\OneDrive\Desktop\Dizon Catherin Finals\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\Users\cathe\OneDrive\Desktop\Dizon Catherin Finals\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\Users\cathe\OneDrive\Desktop\Dizon Catherin Finals\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\Users\cathe\OneDrive\Desktop\Dizon Catherin Finals\app\Controllers\StudentsController.php(44): CodeIgniter\Model->insert(Array)
+#8 C:\Users\cathe\OneDrive\Desktop\Dizon Catherin Finals\system\CodeIgniter.php(934): App\Controllers\StudentsController->storeStudent()
+#9 C:\Users\cathe\OneDrive\Desktop\Dizon Catherin Finals\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentsController))
+#10 C:\Users\cathe\OneDrive\Desktop\Dizon Catherin Finals\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\Users\cathe\OneDrive\Desktop\Dizon Catherin Finals\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 C:\Users\cathe\OneDrive\Desktop\Dizon Catherin Finals\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\cathe\\...')
+#13 {main}
+CRITICAL - 2023-05-26 09:01:31 --> Column 'student_email' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `tbl_students` (`student_name`, `student_lastname`, `student_email`, `student_contact`, `student_course`, `student_year`, `student_section`) VALUES (\'cath\', \'dizon\', NULL, \'09876543212\', \'bsit\', \'3rd year\', \'a\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tbl_students` (`student_name`, `student_lastname`, `student_email`, `student_contact`, `student_course`, `student_year`, `student_section`) VALUES (\'cath\', \'dizon\', NULL, \'09876543212\', \'bsit\', \'3rd year\', \'a\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tbl_students` (`student_name`, `student_lastname`, `student_email`, `student_contact`, `student_course`, `student_year`, `student_section`) VALUES (\'cath\', \'dizon\', NULL, \'09876543212\', \'bsit\', \'3rd year\', \'a\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tbl_students` (`student_name`, `student_lastname`, `student_email`, `student_contact`, `student_course`, `student_year`, `student_section`) VALUES (:student_name:, :student_lastname:, :student_email:, :student_contact:, :student_course:, :student_year:, :student_section:)', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\StudentsController.php(44): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\StudentsController->storeStudent()
+10 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentsController))
+11 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\cathe\\OneDrive\\Desktop\\Dizon Catherin Finals\\public\\index.php')
+ERROR - 2023-05-26 09:02:30 --> mysqli_sql_exception: Column 'student_email' cannot be null in C:\Users\cathe\OneDrive\Desktop\Dizon Catherin Finals\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\Users\cathe\OneDrive\Desktop\Dizon Catherin Finals\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `tb...', 0)
+#1 C:\Users\cathe\OneDrive\Desktop\Dizon Catherin Finals\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\Users\cathe\OneDrive\Desktop\Dizon Catherin Finals\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\Users\cathe\OneDrive\Desktop\Dizon Catherin Finals\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\Users\cathe\OneDrive\Desktop\Dizon Catherin Finals\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\Users\cathe\OneDrive\Desktop\Dizon Catherin Finals\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\Users\cathe\OneDrive\Desktop\Dizon Catherin Finals\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\Users\cathe\OneDrive\Desktop\Dizon Catherin Finals\app\Controllers\StudentsController.php(44): CodeIgniter\Model->insert(Array)
+#8 C:\Users\cathe\OneDrive\Desktop\Dizon Catherin Finals\system\CodeIgniter.php(934): App\Controllers\StudentsController->storeStudent()
+#9 C:\Users\cathe\OneDrive\Desktop\Dizon Catherin Finals\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentsController))
+#10 C:\Users\cathe\OneDrive\Desktop\Dizon Catherin Finals\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\Users\cathe\OneDrive\Desktop\Dizon Catherin Finals\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 C:\Users\cathe\OneDrive\Desktop\Dizon Catherin Finals\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\cathe\\...')
+#13 {main}
+CRITICAL - 2023-05-26 09:02:30 --> Column 'student_email' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `tbl_students` (`student_name`, `student_lastname`, `student_email`, `student_contact`, `student_course`, `student_year`, `student_section`) VALUES (\'cath\', \'dizon\', NULL, \'09876543212\', \'bsit\', \'3rd year\', \'a\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tbl_students` (`student_name`, `student_lastname`, `student_email`, `student_contact`, `student_course`, `student_year`, `student_section`) VALUES (\'cath\', \'dizon\', NULL, \'09876543212\', \'bsit\', \'3rd year\', \'a\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tbl_students` (`student_name`, `student_lastname`, `student_email`, `student_contact`, `student_course`, `student_year`, `student_section`) VALUES (\'cath\', \'dizon\', NULL, \'09876543212\', \'bsit\', \'3rd year\', \'a\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tbl_students` (`student_name`, `student_lastname`, `student_email`, `student_contact`, `student_course`, `student_year`, `student_section`) VALUES (:student_name:, :student_lastname:, :student_email:, :student_contact:, :student_course:, :student_year:, :student_section:)', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\StudentsController.php(44): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\StudentsController->storeStudent()
+10 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentsController))
+11 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\cathe\\OneDrive\\Desktop\\Dizon Catherin Finals\\public\\index.php')
+ERROR - 2023-05-26 09:05:13 --> mysqli_sql_exception: Column 'student_email' cannot be null in C:\Users\cathe\OneDrive\Desktop\Dizon Catherin Finals\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\Users\cathe\OneDrive\Desktop\Dizon Catherin Finals\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `tb...', 0)
+#1 C:\Users\cathe\OneDrive\Desktop\Dizon Catherin Finals\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\Users\cathe\OneDrive\Desktop\Dizon Catherin Finals\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\Users\cathe\OneDrive\Desktop\Dizon Catherin Finals\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\Users\cathe\OneDrive\Desktop\Dizon Catherin Finals\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\Users\cathe\OneDrive\Desktop\Dizon Catherin Finals\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\Users\cathe\OneDrive\Desktop\Dizon Catherin Finals\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\Users\cathe\OneDrive\Desktop\Dizon Catherin Finals\app\Controllers\StudentsController.php(43): CodeIgniter\Model->insert(Array)
+#8 C:\Users\cathe\OneDrive\Desktop\Dizon Catherin Finals\system\CodeIgniter.php(934): App\Controllers\StudentsController->storeStudent()
+#9 C:\Users\cathe\OneDrive\Desktop\Dizon Catherin Finals\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentsController))
+#10 C:\Users\cathe\OneDrive\Desktop\Dizon Catherin Finals\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\Users\cathe\OneDrive\Desktop\Dizon Catherin Finals\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 C:\Users\cathe\OneDrive\Desktop\Dizon Catherin Finals\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\cathe\\...')
+#13 {main}
+CRITICAL - 2023-05-26 09:05:13 --> Column 'student_email' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `tbl_students` (`student_name`, `student_lastname`, `student_email`, `student_contact`, `student_course`, `student_year`, `student_section`) VALUES (\'cath\', \'dizon\', NULL, \'09876543212\', \'bsit\', \'3rd year\', \'a\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tbl_students` (`student_name`, `student_lastname`, `student_email`, `student_contact`, `student_course`, `student_year`, `student_section`) VALUES (\'cath\', \'dizon\', NULL, \'09876543212\', \'bsit\', \'3rd year\', \'a\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tbl_students` (`student_name`, `student_lastname`, `student_email`, `student_contact`, `student_course`, `student_year`, `student_section`) VALUES (\'cath\', \'dizon\', NULL, \'09876543212\', \'bsit\', \'3rd year\', \'a\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tbl_students` (`student_name`, `student_lastname`, `student_email`, `student_contact`, `student_course`, `student_year`, `student_section`) VALUES (:student_name:, :student_lastname:, :student_email:, :student_contact:, :student_course:, :student_year:, :student_section:)', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\StudentsController.php(43): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\StudentsController->storeStudent()
+10 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentsController))
+11 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\cathe\\OneDrive\\Desktop\\Dizon Catherin Finals\\public\\index.php')
+ERROR - 2023-05-26 09:06:04 --> mysqli_sql_exception: Column 'student_email' cannot be null in C:\Users\cathe\OneDrive\Desktop\Dizon Catherin Finals\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\Users\cathe\OneDrive\Desktop\Dizon Catherin Finals\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `tb...', 0)
+#1 C:\Users\cathe\OneDrive\Desktop\Dizon Catherin Finals\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\Users\cathe\OneDrive\Desktop\Dizon Catherin Finals\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\Users\cathe\OneDrive\Desktop\Dizon Catherin Finals\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\Users\cathe\OneDrive\Desktop\Dizon Catherin Finals\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\Users\cathe\OneDrive\Desktop\Dizon Catherin Finals\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\Users\cathe\OneDrive\Desktop\Dizon Catherin Finals\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\Users\cathe\OneDrive\Desktop\Dizon Catherin Finals\app\Controllers\StudentsController.php(43): CodeIgniter\Model->insert(Array)
+#8 C:\Users\cathe\OneDrive\Desktop\Dizon Catherin Finals\system\CodeIgniter.php(934): App\Controllers\StudentsController->storeStudent()
+#9 C:\Users\cathe\OneDrive\Desktop\Dizon Catherin Finals\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentsController))
+#10 C:\Users\cathe\OneDrive\Desktop\Dizon Catherin Finals\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\Users\cathe\OneDrive\Desktop\Dizon Catherin Finals\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 C:\Users\cathe\OneDrive\Desktop\Dizon Catherin Finals\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\cathe\\...')
+#13 {main}
+CRITICAL - 2023-05-26 09:06:04 --> Column 'student_email' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `tbl_students` (`student_name`, `student_lastname`, `student_email`, `student_contact`, `student_course`, `student_year`, `student_section`) VALUES (\'cath\', \'dizon\', NULL, \'09876543212\', \'bsit\', \'3rd year\', \'a\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tbl_students` (`student_name`, `student_lastname`, `student_email`, `student_contact`, `student_course`, `student_year`, `student_section`) VALUES (\'cath\', \'dizon\', NULL, \'09876543212\', \'bsit\', \'3rd year\', \'a\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tbl_students` (`student_name`, `student_lastname`, `student_email`, `student_contact`, `student_course`, `student_year`, `student_section`) VALUES (\'cath\', \'dizon\', NULL, \'09876543212\', \'bsit\', \'3rd year\', \'a\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tbl_students` (`student_name`, `student_lastname`, `student_email`, `student_contact`, `student_course`, `student_year`, `student_section`) VALUES (:student_name:, :student_lastname:, :student_email:, :student_contact:, :student_course:, :student_year:, :student_section:)', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\StudentsController.php(43): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\StudentsController->storeStudent()
+10 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentsController))
+11 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\cathe\\OneDrive\\Desktop\\Dizon Catherin Finals\\public\\index.php')
+INFO - 2023-05-26 09:06:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-26 09:06:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-26 09:28:04 --> Class "App\Controllers\StudentModel" not found
+in APPPATH\Controllers\StudentsController.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\StudentsController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentsController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\cathe\\OneDrive\\Desktop\\Dizon Catherin Finals\\public\\index.php')
+CRITICAL - 2023-05-26 09:30:28 --> Class "App\Controllers\StudentModel" not found
+in APPPATH\Controllers\StudentsController.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\StudentsController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentsController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\cathe\\OneDrive\\Desktop\\Dizon Catherin Finals\\public\\index.php')
+INFO - 2023-05-26 09:30:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-26 09:30:33 --> Class "App\Controllers\StudentModel" not found
+in APPPATH\Controllers\StudentsController.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\StudentsController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentsController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\cathe\\OneDrive\\Desktop\\Dizon Catherin Finals\\public\\index.php')
+CRITICAL - 2023-05-26 09:33:32 --> Class "App\Controllers\StudentModel" not found
+in APPPATH\Controllers\StudentsController.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\StudentsController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentsController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\cathe\\OneDrive\\Desktop\\Dizon Catherin Finals\\public\\index.php')
+INFO - 2023-05-26 09:34:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-26 09:34:16 --> Undefined array key "student_id"
+in APPPATH\Views\students\list.php on line 33.
+ 1 APPPATH\Views\students\list.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "student_id"', 'C:\\Users\\cathe\\OneDrive\\Desktop\\Dizon Catherin Finals\\app\\Views\\students\\list.php', 33)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\Users\\cathe\\OneDrive\\Desktop\\Dizon Catherin Finals\\app\\Views\\students\\list.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('students/list', [], true)
+ 5 APPPATH\Controllers\StudentsController.php(15): view('students/list', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\StudentsController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentsController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\cathe\\OneDrive\\Desktop\\Dizon Catherin Finals\\public\\index.php')
+INFO - 2023-05-26 09:34:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-26 09:35:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-26 09:36:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-26 09:36:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-26 09:42:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-26 09:43:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-26 09:43:55 --> Undefined array key "studentProfile"
+in APPPATH\Views\students\list.php on line 40.
+ 1 APPPATH\Views\students\list.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "studentProfile"', 'C:\\Users\\cathe\\OneDrive\\Desktop\\Dizon Catherin Finals\\app\\Views\\students\\list.php', 40)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\Users\\cathe\\OneDrive\\Desktop\\Dizon Catherin Finals\\app\\Views\\students\\list.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('students/list', [], true)
+ 5 APPPATH\Controllers\StudentsController.php(15): view('students/list', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\StudentsController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentsController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\cathe\\OneDrive\\Desktop\\Dizon Catherin Finals\\public\\index.php')
+INFO - 2023-05-26 09:44:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-26 09:44:10 --> Undefined array key "studentprofile"
+in APPPATH\Views\students\list.php on line 40.
+ 1 APPPATH\Views\students\list.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "studentprofile"', 'C:\\Users\\cathe\\OneDrive\\Desktop\\Dizon Catherin Finals\\app\\Views\\students\\list.php', 40)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\Users\\cathe\\OneDrive\\Desktop\\Dizon Catherin Finals\\app\\Views\\students\\list.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('students/list', [], true)
+ 5 APPPATH\Controllers\StudentsController.php(15): view('students/list', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\StudentsController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentsController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\cathe\\OneDrive\\Desktop\\Dizon Catherin Finals\\public\\index.php')
+INFO - 2023-05-26 09:45:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-26 09:45:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-26 09:45:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-26 09:45:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-26 09:49:24 --> Undefined variable $studentId
+in APPPATH\Views\students\edit.php on line 12.
+ 1 APPPATH\Views\students\edit.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $studentId', 'C:\\Users\\cathe\\OneDrive\\Desktop\\Dizon Catherin Finals\\app\\Views\\students\\edit.php', 12)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\Users\\cathe\\OneDrive\\Desktop\\Dizon Catherin Finals\\app\\Views\\students\\edit.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('students/edit', [], true)
+ 5 APPPATH\Controllers\StudentsController.php(56): view('students/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\StudentsController->editStudent('3')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentsController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\cathe\\OneDrive\\Desktop\\Dizon Catherin Finals\\public\\index.php')
+CRITICAL - 2023-05-26 09:57:05 --> Undefined constant "student"
+in APPPATH\Views\students\edit.php on line 12.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('students/edit', [], true)
+ 4 APPPATH\Controllers\StudentsController.php(56): view('students/edit', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\StudentsController->editStudent('3')
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentsController))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\cathe\\OneDrive\\Desktop\\Dizon Catherin Finals\\public\\index.php')
+CRITICAL - 2023-05-26 09:58:17 --> Undefined constant "student"
+in APPPATH\Views\students\edit.php on line 16.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('students/edit', [], true)
+ 4 APPPATH\Controllers\StudentsController.php(56): view('students/edit', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\StudentsController->editStudent('3')
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentsController))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\cathe\\OneDrive\\Desktop\\Dizon Catherin Finals\\public\\index.php')
+CRITICAL - 2023-05-26 10:00:25 --> Undefined constant "student"
+in APPPATH\Views\students\edit.php on line 12.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('students/edit', [], true)
+ 4 APPPATH\Controllers\StudentsController.php(56): view('students/edit', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\StudentsController->editStudent('3')
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentsController))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\cathe\\OneDrive\\Desktop\\Dizon Catherin Finals\\public\\index.php')
+CRITICAL - 2023-05-26 10:02:29 --> Undefined array key "student_id"
+in APPPATH\Views\students\edit.php on line 12.
+ 1 APPPATH\Views\students\edit.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "student_id"', 'C:\\Users\\cathe\\OneDrive\\Desktop\\Dizon Catherin Finals\\app\\Views\\students\\edit.php', 12)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\Users\\cathe\\OneDrive\\Desktop\\Dizon Catherin Finals\\app\\Views\\students\\edit.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('students/edit', [], true)
+ 5 APPPATH\Controllers\StudentsController.php(56): view('students/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\StudentsController->editStudent('3')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentsController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\cathe\\OneDrive\\Desktop\\Dizon Catherin Finals\\public\\index.php')
+CRITICAL - 2023-05-26 10:05:07 --> Undefined variable $imageName
+in APPPATH\Controllers\StudentsController.php on line 43.
+ 1 APPPATH\Controllers\StudentsController.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $imageName', 'C:\\Users\\cathe\\OneDrive\\Desktop\\Dizon Catherin Finals\\app\\Controllers\\StudentsController.php', 43)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\StudentsController->storeStudent()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentsController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\cathe\\OneDrive\\Desktop\\Dizon Catherin Finals\\public\\index.php')
+CRITICAL - 2023-05-26 10:06:23 --> Undefined variable $imageName
+in APPPATH\Controllers\StudentsController.php on line 43.
+ 1 APPPATH\Controllers\StudentsController.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $imageName', 'C:\\Users\\cathe\\OneDrive\\Desktop\\Dizon Catherin Finals\\app\\Controllers\\StudentsController.php', 43)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\StudentsController->storeStudent()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentsController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\cathe\\OneDrive\\Desktop\\Dizon Catherin Finals\\public\\index.php')
+CRITICAL - 2023-05-26 10:15:56 --> Undefined variable $imageName
+in APPPATH\Controllers\StudentsController.php on line 43.
+ 1 APPPATH\Controllers\StudentsController.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $imageName', 'C:\\Users\\cathe\\OneDrive\\Desktop\\Dizon Catherin Finals\\app\\Controllers\\StudentsController.php', 43)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\StudentsController->storeStudent()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentsController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\cathe\\OneDrive\\Desktop\\Dizon Catherin Finals\\public\\index.php')
+INFO - 2023-05-26 10:22:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-26 10:22:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-26 10:22:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-26 10:22:18 --> Undefined array key "student_profile"
+in APPPATH\Views\students\list.php on line 40.
+ 1 APPPATH\Views\students\list.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "student_profile"', 'C:\\Users\\cathe\\OneDrive\\Desktop\\Dizon Catherin Finals\\app\\Views\\students\\list.php', 40)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\Users\\cathe\\OneDrive\\Desktop\\Dizon Catherin Finals\\app\\Views\\students\\list.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('students/list', [], true)
+ 5 APPPATH\Controllers\StudentsController.php(15): view('students/list', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\StudentsController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentsController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\cathe\\OneDrive\\Desktop\\Dizon Catherin Finals\\public\\index.php')
+INFO - 2023-05-26 10:22:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-26 10:22:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-26 10:22:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-26 10:35:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-26 10:35:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-26 10:35:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-26 10:38:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-26 10:39:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-26 10:39:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-26 10:40:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-26 10:40:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-26 10:47:24 --> Class "App\Controllers\StdudentsModel" not found
+in APPPATH\Controllers\StudentsController.php on line 72.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\StudentsController->deleteStudent('7')
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentsController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\cathe\\OneDrive\\Desktop\\Dizon Catherin Finals\\public\\index.php')
+INFO - 2023-05-26 10:47:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-26 10:47:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-26 10:47:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-26 10:47:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-26 10:47:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-26 10:47:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-26 10:47:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-26 10:47:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-26 10:47:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-26 10:47:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-26 10:48:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-26 10:48:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-26 10:50:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-26 10:50:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-26 10:50:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-26 10:50:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-26 10:50:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-26 10:50:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-26 10:50:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-26 10:50:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-26 10:50:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-26 10:51:00 --> Trying to access array offset on value of type null
+in APPPATH\Views\students\edit.php on line 12.
+ 1 APPPATH\Views\students\edit.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\Users\\cathe\\OneDrive\\Desktop\\Dizon Catherin Finals\\app\\Views\\students\\edit.php', 12)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\Users\\cathe\\OneDrive\\Desktop\\Dizon Catherin Finals\\app\\Views\\students\\edit.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('students/edit', [], true)
+ 5 APPPATH\Controllers\StudentsController.php(47): view('students/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\StudentsController->editStudent('5')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentsController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\cathe\\OneDrive\\Desktop\\Dizon Catherin Finals\\public\\index.php')
+INFO - 2023-05-26 10:51:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-26 10:58:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-26 11:00:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-26 11:00:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-26 11:11:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-26 11:11:20 --> preg_match(): Compilation failed: missing closing parenthesis at offset 25
+in SYSTEMPATH\Router\Router.php on line 419.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'preg_match(): Compilation failed: missing closing parenthesis at offset 25', 'C:\\Users\\cathe\\OneDrive\\Desktop\\Dizon Catherin Finals\\system\\Router\\Router.php', 419)
+ 2 SYSTEMPATH\Router\Router.php(419): preg_match('#^students/update/([0-9]+$#u', 'students/create', [])
+ 3 SYSTEMPATH\Router\Router.php(182): CodeIgniter\Router\Router->checkRoutes('students/create')
+ 4 SYSTEMPATH\CodeIgniter.php(815): CodeIgniter\Router\Router->handle('students/create')
+ 5 SYSTEMPATH\CodeIgniter.php(449): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\cathe\\OneDrive\\Desktop\\Dizon Catherin Finals\\public\\index.php')
+CRITICAL - 2023-05-26 11:11:49 --> preg_match(): Compilation failed: missing closing parenthesis at offset 25
+in SYSTEMPATH\Router\Router.php on line 419.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'preg_match(): Compilation failed: missing closing parenthesis at offset 25', 'C:\\Users\\cathe\\OneDrive\\Desktop\\Dizon Catherin Finals\\system\\Router\\Router.php', 419)
+ 2 SYSTEMPATH\Router\Router.php(419): preg_match('#^students/update/([0-9]+$#u', 'students/create', [])
+ 3 SYSTEMPATH\Router\Router.php(182): CodeIgniter\Router\Router->checkRoutes('students/create')
+ 4 SYSTEMPATH\CodeIgniter.php(815): CodeIgniter\Router\Router->handle('students/create')
+ 5 SYSTEMPATH\CodeIgniter.php(449): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\cathe\\OneDrive\\Desktop\\Dizon Catherin Finals\\public\\index.php')
+CRITICAL - 2023-05-26 11:11:53 --> preg_match(): Compilation failed: missing closing parenthesis at offset 25
+in SYSTEMPATH\Router\Router.php on line 419.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'preg_match(): Compilation failed: missing closing parenthesis at offset 25', 'C:\\Users\\cathe\\OneDrive\\Desktop\\Dizon Catherin Finals\\system\\Router\\Router.php', 419)
+ 2 SYSTEMPATH\Router\Router.php(419): preg_match('#^students/update/([0-9]+$#u', 'students/create', [])
+ 3 SYSTEMPATH\Router\Router.php(182): CodeIgniter\Router\Router->checkRoutes('students/create')
+ 4 SYSTEMPATH\CodeIgniter.php(815): CodeIgniter\Router\Router->handle('students/create')
+ 5 SYSTEMPATH\CodeIgniter.php(449): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\cathe\\OneDrive\\Desktop\\Dizon Catherin Finals\\public\\index.php')
+INFO - 2023-05-26 11:12:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-26 11:12:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-26 11:14:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-26 11:14:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-26 11:14:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-26 11:14:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-26 11:14:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-26 11:14:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-26 11:14:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-26 11:14:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-26 11:14:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-26 11:18:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-26 11:19:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-26 11:23:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-26 11:24:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-26 11:24:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-26 11:26:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-26 11:26:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-26 11:28:22 --> Call to undefined method CodeIgniter\HTTP\IncomingRequest::POST()
+in APPPATH\Controllers\StudentsController.php on line 30.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\StudentsController->storeStudent()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentsController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\cathe\\OneDrive\\Desktop\\Dizon Catherin Finals\\public\\index.php')
+INFO - 2023-05-26 11:29:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-26 11:29:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-26 11:38:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-26 11:38:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-26 11:43:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-26 11:44:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-26 11:44:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-26 11:45:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-26 11:45:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-26 11:45:20 --> preg_match(): Compilation failed: missing closing parenthesis at offset 25
+in SYSTEMPATH\Router\Router.php on line 419.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'preg_match(): Compilation failed: missing closing parenthesis at offset 25', 'C:\\Users\\cathe\\OneDrive\\Desktop\\Dizon Catherin Finals\\system\\Router\\Router.php', 419)
+ 2 SYSTEMPATH\Router\Router.php(419): preg_match('#^students/update/([0-9]+$#u', 'students/update', [])
+ 3 SYSTEMPATH\Router\Router.php(182): CodeIgniter\Router\Router->checkRoutes('students/update')
+ 4 SYSTEMPATH\CodeIgniter.php(815): CodeIgniter\Router\Router->handle('students/update/')
+ 5 SYSTEMPATH\CodeIgniter.php(449): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\cathe\\OneDrive\\Desktop\\Dizon Catherin Finals\\public\\index.php')
+CRITICAL - 2023-05-26 11:45:33 --> preg_match(): Compilation failed: missing closing parenthesis at offset 25
+in SYSTEMPATH\Router\Router.php on line 419.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'preg_match(): Compilation failed: missing closing parenthesis at offset 25', 'C:\\Users\\cathe\\OneDrive\\Desktop\\Dizon Catherin Finals\\system\\Router\\Router.php', 419)
+ 2 SYSTEMPATH\Router\Router.php(419): preg_match('#^students/update/([0-9]+$#u', 'students/update', [])
+ 3 SYSTEMPATH\Router\Router.php(182): CodeIgniter\Router\Router->checkRoutes('students/update')
+ 4 SYSTEMPATH\CodeIgniter.php(815): CodeIgniter\Router\Router->handle('students/update/')
+ 5 SYSTEMPATH\CodeIgniter.php(449): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\cathe\\OneDrive\\Desktop\\Dizon Catherin Finals\\public\\index.php')
+CRITICAL - 2023-05-26 11:51:04 --> preg_match(): Compilation failed: missing closing parenthesis at offset 25
+in SYSTEMPATH\Router\Router.php on line 419.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'preg_match(): Compilation failed: missing closing parenthesis at offset 25', 'C:\\Users\\cathe\\OneDrive\\Desktop\\Dizon Catherin Finals\\system\\Router\\Router.php', 419)
+ 2 SYSTEMPATH\Router\Router.php(419): preg_match('#^students/update/([0-9]+$#u', 'students/update', [])
+ 3 SYSTEMPATH\Router\Router.php(182): CodeIgniter\Router\Router->checkRoutes('students/update')
+ 4 SYSTEMPATH\CodeIgniter.php(815): CodeIgniter\Router\Router->handle('students/update/')
+ 5 SYSTEMPATH\CodeIgniter.php(449): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\cathe\\OneDrive\\Desktop\\Dizon Catherin Finals\\public\\index.php')
+CRITICAL - 2023-05-26 11:51:11 --> Undefined array key "name"
+in APPPATH\Views\students\edit.php on line 16.
+ 1 APPPATH\Views\students\edit.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "name"', 'C:\\Users\\cathe\\OneDrive\\Desktop\\Dizon Catherin Finals\\app\\Views\\students\\edit.php', 16)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\Users\\cathe\\OneDrive\\Desktop\\Dizon Catherin Finals\\app\\Views\\students\\edit.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('students/edit', [], true)
+ 5 APPPATH\Controllers\StudentsController.php(47): view('students/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\StudentsController->editStudent('1')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentsController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\cathe\\OneDrive\\Desktop\\Dizon Catherin Finals\\public\\index.php')
+INFO - 2023-05-26 11:51:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-26 11:51:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-26 11:51:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-26 11:51:25 --> Undefined array key "name"
+in APPPATH\Views\students\edit.php on line 16.
+ 1 APPPATH\Views\students\edit.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "name"', 'C:\\Users\\cathe\\OneDrive\\Desktop\\Dizon Catherin Finals\\app\\Views\\students\\edit.php', 16)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\Users\\cathe\\OneDrive\\Desktop\\Dizon Catherin Finals\\app\\Views\\students\\edit.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('students/edit', [], true)
+ 5 APPPATH\Controllers\StudentsController.php(47): view('students/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\StudentsController->editStudent('11')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentsController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\cathe\\OneDrive\\Desktop\\Dizon Catherin Finals\\public\\index.php')
+INFO - 2023-05-26 11:51:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-26 11:51:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-26 11:51:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-26 11:52:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-26 11:52:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-26 11:58:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-26 11:58:26 --> Undefined array key "studnet_course"
+in APPPATH\Views\students\edit.php on line 32.
+ 1 APPPATH\Views\students\edit.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "studnet_course"', 'C:\\Users\\cathe\\OneDrive\\Desktop\\Dizon Catherin Finals\\app\\Views\\students\\edit.php', 32)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\Users\\cathe\\OneDrive\\Desktop\\Dizon Catherin Finals\\app\\Views\\students\\edit.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('students/edit', [], true)
+ 5 APPPATH\Controllers\StudentsController.php(47): view('students/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\StudentsController->editStudent('14')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentsController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\cathe\\OneDrive\\Desktop\\Dizon Catherin Finals\\public\\index.php')
+CRITICAL - 2023-05-26 11:59:15 --> preg_match(): Compilation failed: missing closing parenthesis at offset 25
+in SYSTEMPATH\Router\Router.php on line 419.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'preg_match(): Compilation failed: missing closing parenthesis at offset 25', 'C:\\Users\\cathe\\OneDrive\\Desktop\\Dizon Catherin Finals\\system\\Router\\Router.php', 419)
+ 2 SYSTEMPATH\Router\Router.php(419): preg_match('#^students/update/([0-9]+$#u', 'students/update/14', [])
+ 3 SYSTEMPATH\Router\Router.php(182): CodeIgniter\Router\Router->checkRoutes('students/update/14')
+ 4 SYSTEMPATH\CodeIgniter.php(815): CodeIgniter\Router\Router->handle('students/update/14')
+ 5 SYSTEMPATH\CodeIgniter.php(449): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\cathe\\OneDrive\\Desktop\\Dizon Catherin Finals\\public\\index.php')
+CRITICAL - 2023-05-26 11:59:51 --> preg_match(): Compilation failed: missing closing parenthesis at offset 25
+in SYSTEMPATH\Router\Router.php on line 419.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'preg_match(): Compilation failed: missing closing parenthesis at offset 25', 'C:\\Users\\cathe\\OneDrive\\Desktop\\Dizon Catherin Finals\\system\\Router\\Router.php', 419)
+ 2 SYSTEMPATH\Router\Router.php(419): preg_match('#^students/update/([0-9]+$#u', 'students/update/14', [])
+ 3 SYSTEMPATH\Router\Router.php(182): CodeIgniter\Router\Router->checkRoutes('students/update/14')
+ 4 SYSTEMPATH\CodeIgniter.php(815): CodeIgniter\Router\Router->handle('students/update/14')
+ 5 SYSTEMPATH\CodeIgniter.php(449): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\cathe\\OneDrive\\Desktop\\Dizon Catherin Finals\\public\\index.php')
+CRITICAL - 2023-05-26 12:00:47 --> Undefined variable $exclude_defer_js
+in SYSTEMPATH\Router\Router.php on line 419.
+ 1 SYSTEMPATH\Router\Router.php(419): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $exclude_defer_js', 'C:\\Users\\cathe\\OneDrive\\Desktop\\Dizon Catherin Finals\\system\\Router\\Router.php', 419)
+ 2 SYSTEMPATH\Router\Router.php(182): CodeIgniter\Router\Router->checkRoutes('students/update/14')
+ 3 SYSTEMPATH\CodeIgniter.php(815): CodeIgniter\Router\Router->handle('students/update/14')
+ 4 SYSTEMPATH\CodeIgniter.php(449): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\cathe\\OneDrive\\Desktop\\Dizon Catherin Finals\\public\\index.php')
+CRITICAL - 2023-05-26 12:01:27 --> Undefined variable $exclude_defer_js
+in SYSTEMPATH\Router\Router.php on line 419.
+ 1 SYSTEMPATH\Router\Router.php(419): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $exclude_defer_js', 'C:\\Users\\cathe\\OneDrive\\Desktop\\Dizon Catherin Finals\\system\\Router\\Router.php', 419)
+ 2 SYSTEMPATH\Router\Router.php(182): CodeIgniter\Router\Router->checkRoutes('students/edit/14')
+ 3 SYSTEMPATH\CodeIgniter.php(815): CodeIgniter\Router\Router->handle('students/edit/14')
+ 4 SYSTEMPATH\CodeIgniter.php(449): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\cathe\\OneDrive\\Desktop\\Dizon Catherin Finals\\public\\index.php')
+CRITICAL - 2023-05-26 12:01:29 --> Undefined variable $exclude_defer_js
+in SYSTEMPATH\Router\Router.php on line 419.
+ 1 SYSTEMPATH\Router\Router.php(419): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $exclude_defer_js', 'C:\\Users\\cathe\\OneDrive\\Desktop\\Dizon Catherin Finals\\system\\Router\\Router.php', 419)
+ 2 SYSTEMPATH\Router\Router.php(182): CodeIgniter\Router\Router->checkRoutes('students')
+ 3 SYSTEMPATH\CodeIgniter.php(815): CodeIgniter\Router\Router->handle('students')
+ 4 SYSTEMPATH\CodeIgniter.php(449): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\cathe\\OneDrive\\Desktop\\Dizon Catherin Finals\\public\\index.php')
+CRITICAL - 2023-05-26 12:01:32 --> Undefined variable $exclude_defer_js
+in SYSTEMPATH\Router\Router.php on line 419.
+ 1 SYSTEMPATH\Router\Router.php(419): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $exclude_defer_js', 'C:\\Users\\cathe\\OneDrive\\Desktop\\Dizon Catherin Finals\\system\\Router\\Router.php', 419)
+ 2 SYSTEMPATH\Router\Router.php(182): CodeIgniter\Router\Router->checkRoutes('students/create')
+ 3 SYSTEMPATH\CodeIgniter.php(815): CodeIgniter\Router\Router->handle('students/create')
+ 4 SYSTEMPATH\CodeIgniter.php(449): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\cathe\\OneDrive\\Desktop\\Dizon Catherin Finals\\public\\index.php')
+CRITICAL - 2023-05-26 12:01:33 --> Undefined variable $exclude_defer_js
+in SYSTEMPATH\Router\Router.php on line 419.
+ 1 SYSTEMPATH\Router\Router.php(419): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $exclude_defer_js', 'C:\\Users\\cathe\\OneDrive\\Desktop\\Dizon Catherin Finals\\system\\Router\\Router.php', 419)
+ 2 SYSTEMPATH\Router\Router.php(182): CodeIgniter\Router\Router->checkRoutes('students/create')
+ 3 SYSTEMPATH\CodeIgniter.php(815): CodeIgniter\Router\Router->handle('students/create')
+ 4 SYSTEMPATH\CodeIgniter.php(449): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\cathe\\OneDrive\\Desktop\\Dizon Catherin Finals\\public\\index.php')
+CRITICAL - 2023-05-26 12:01:34 --> Undefined variable $exclude_defer_js
+in SYSTEMPATH\Router\Router.php on line 419.
+ 1 SYSTEMPATH\Router\Router.php(419): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $exclude_defer_js', 'C:\\Users\\cathe\\OneDrive\\Desktop\\Dizon Catherin Finals\\system\\Router\\Router.php', 419)
+ 2 SYSTEMPATH\Router\Router.php(182): CodeIgniter\Router\Router->checkRoutes('students/create')
+ 3 SYSTEMPATH\CodeIgniter.php(815): CodeIgniter\Router\Router->handle('students/create')
+ 4 SYSTEMPATH\CodeIgniter.php(449): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\cathe\\OneDrive\\Desktop\\Dizon Catherin Finals\\public\\index.php')
+CRITICAL - 2023-05-26 12:01:34 --> Undefined variable $exclude_defer_js
+in SYSTEMPATH\Router\Router.php on line 419.
+ 1 SYSTEMPATH\Router\Router.php(419): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $exclude_defer_js', 'C:\\Users\\cathe\\OneDrive\\Desktop\\Dizon Catherin Finals\\system\\Router\\Router.php', 419)
+ 2 SYSTEMPATH\Router\Router.php(182): CodeIgniter\Router\Router->checkRoutes('students/create')
+ 3 SYSTEMPATH\CodeIgniter.php(815): CodeIgniter\Router\Router->handle('students/create')
+ 4 SYSTEMPATH\CodeIgniter.php(449): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\cathe\\OneDrive\\Desktop\\Dizon Catherin Finals\\public\\index.php')
+CRITICAL - 2023-05-26 12:01:38 --> Undefined variable $exclude_defer_js
+in SYSTEMPATH\Router\Router.php on line 419.
+ 1 SYSTEMPATH\Router\Router.php(419): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $exclude_defer_js', 'C:\\Users\\cathe\\OneDrive\\Desktop\\Dizon Catherin Finals\\system\\Router\\Router.php', 419)
+ 2 SYSTEMPATH\Router\Router.php(182): CodeIgniter\Router\Router->checkRoutes('students/create')
+ 3 SYSTEMPATH\CodeIgniter.php(815): CodeIgniter\Router\Router->handle('students/create')
+ 4 SYSTEMPATH\CodeIgniter.php(449): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\cathe\\OneDrive\\Desktop\\Dizon Catherin Finals\\public\\index.php')
+CRITICAL - 2023-05-26 12:03:24 --> Undefined variable $exclude_defer_js
+in SYSTEMPATH\Router\Router.php on line 419.
+ 1 SYSTEMPATH\Router\Router.php(419): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $exclude_defer_js', 'C:\\Users\\cathe\\OneDrive\\Desktop\\Dizon Catherin Finals\\system\\Router\\Router.php', 419)
+ 2 SYSTEMPATH\Router\Router.php(182): CodeIgniter\Router\Router->checkRoutes('students/create')
+ 3 SYSTEMPATH\CodeIgniter.php(815): CodeIgniter\Router\Router->handle('students/create')
+ 4 SYSTEMPATH\CodeIgniter.php(449): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\cathe\\OneDrive\\Desktop\\Dizon Catherin Finals\\public\\index.php')
+CRITICAL - 2023-05-26 12:04:23 --> Undefined variable $exclude_defer_js
+in SYSTEMPATH\Router\Router.php on line 419.
+ 1 SYSTEMPATH\Router\Router.php(419): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $exclude_defer_js', 'C:\\Users\\cathe\\OneDrive\\Desktop\\Dizon Catherin Finals\\system\\Router\\Router.php', 419)
+ 2 SYSTEMPATH\Router\Router.php(182): CodeIgniter\Router\Router->checkRoutes('students/create')
+ 3 SYSTEMPATH\CodeIgniter.php(815): CodeIgniter\Router\Router->handle('students/create')
+ 4 SYSTEMPATH\CodeIgniter.php(449): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\cathe\\OneDrive\\Desktop\\Dizon Catherin Finals\\public\\index.php')
+CRITICAL - 2023-05-26 12:04:29 --> Undefined variable $exclude_defer_js
+in SYSTEMPATH\Router\Router.php on line 419.
+ 1 SYSTEMPATH\Router\Router.php(419): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $exclude_defer_js', 'C:\\Users\\cathe\\OneDrive\\Desktop\\Dizon Catherin Finals\\system\\Router\\Router.php', 419)
+ 2 SYSTEMPATH\Router\Router.php(182): CodeIgniter\Router\Router->checkRoutes('students')
+ 3 SYSTEMPATH\CodeIgniter.php(815): CodeIgniter\Router\Router->handle('students')
+ 4 SYSTEMPATH\CodeIgniter.php(449): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\cathe\\OneDrive\\Desktop\\Dizon Catherin Finals\\public\\index.php')
+CRITICAL - 2023-05-26 12:04:30 --> Undefined variable $exclude_defer_js
+in SYSTEMPATH\Router\Router.php on line 419.
+ 1 SYSTEMPATH\Router\Router.php(419): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $exclude_defer_js', 'C:\\Users\\cathe\\OneDrive\\Desktop\\Dizon Catherin Finals\\system\\Router\\Router.php', 419)
+ 2 SYSTEMPATH\Router\Router.php(182): CodeIgniter\Router\Router->checkRoutes('students')
+ 3 SYSTEMPATH\CodeIgniter.php(815): CodeIgniter\Router\Router->handle('students')
+ 4 SYSTEMPATH\CodeIgniter.php(449): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\cathe\\OneDrive\\Desktop\\Dizon Catherin Finals\\public\\index.php')
+INFO - 2023-05-26 12:08:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-26 12:08:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-26 12:08:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-26 12:09:00 --> preg_match(): Compilation failed: missing closing parenthesis at offset 25
+in SYSTEMPATH\Router\Router.php on line 419.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'preg_match(): Compilation failed: missing closing parenthesis at offset 25', 'C:\\Users\\cathe\\OneDrive\\Desktop\\Dizon Catherin Finals\\system\\Router\\Router.php', 419)
+ 2 SYSTEMPATH\Router\Router.php(419): preg_match('#^students/update/([0-9]+$#u', 'students/update/12', [])
+ 3 SYSTEMPATH\Router\Router.php(182): CodeIgniter\Router\Router->checkRoutes('students/update/12')
+ 4 SYSTEMPATH\CodeIgniter.php(815): CodeIgniter\Router\Router->handle('students/update/12')
+ 5 SYSTEMPATH\CodeIgniter.php(449): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\cathe\\OneDrive\\Desktop\\Dizon Catherin Finals\\public\\index.php')
+CRITICAL - 2023-05-26 12:14:18 --> preg_match(): Compilation failed: missing closing parenthesis at offset 25
+in SYSTEMPATH\Router\Router.php on line 419.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'preg_match(): Compilation failed: missing closing parenthesis at offset 25', 'C:\\Users\\cathe\\OneDrive\\Desktop\\Dizon Catherin Finals\\system\\Router\\Router.php', 419)
+ 2 SYSTEMPATH\Router\Router.php(419): preg_match('#^students/update/([0-9]+$#u', 'students/update/12', [])
+ 3 SYSTEMPATH\Router\Router.php(182): CodeIgniter\Router\Router->checkRoutes('students/update/12')
+ 4 SYSTEMPATH\CodeIgniter.php(815): CodeIgniter\Router\Router->handle('students/update/12')
+ 5 SYSTEMPATH\CodeIgniter.php(449): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\cathe\\OneDrive\\Desktop\\Dizon Catherin Finals\\public\\index.php')
+CRITICAL - 2023-05-26 12:15:41 --> preg_match(): Compilation failed: missing closing parenthesis at offset 25
+in SYSTEMPATH\Router\Router.php on line 419.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'preg_match(): Compilation failed: missing closing parenthesis at offset 25', 'C:\\Users\\cathe\\OneDrive\\Desktop\\Dizon Catherin Finals\\system\\Router\\Router.php', 419)
+ 2 SYSTEMPATH\Router\Router.php(419): preg_match('#^students/update/([0-9]+$#u', 'students/update/12', [])
+ 3 SYSTEMPATH\Router\Router.php(182): CodeIgniter\Router\Router->checkRoutes('students/update/12')
+ 4 SYSTEMPATH\CodeIgniter.php(815): CodeIgniter\Router\Router->handle('students/update/12')
+ 5 SYSTEMPATH\CodeIgniter.php(449): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\cathe\\OneDrive\\Desktop\\Dizon Catherin Finals\\public\\index.php')
+CRITICAL - 2023-05-26 12:15:43 --> syntax error, unexpected identifier "student", expecting "," or ";"
+in APPPATH\Views\students\edit.php on line 32.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('students/edit', [], true)
+ 3 APPPATH\Controllers\StudentsController.php(47): view('students/edit', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\StudentsController->editStudent('12')
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentsController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\cathe\\OneDrive\\Desktop\\Dizon Catherin Finals\\public\\index.php')
+INFO - 2023-05-26 12:15:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-26 12:15:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-26 12:16:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-26 12:16:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-26 12:16:08 --> syntax error, unexpected identifier "student", expecting "," or ";"
+in APPPATH\Views\students\edit.php on line 32.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('students/edit', [], true)
+ 3 APPPATH\Controllers\StudentsController.php(47): view('students/edit', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\StudentsController->editStudent('16')
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentsController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\cathe\\OneDrive\\Desktop\\Dizon Catherin Finals\\public\\index.php')
+CRITICAL - 2023-05-26 12:16:36 --> Undefined array key "student_id"
+in APPPATH\Views\students\edit.php on line 12.
+ 1 APPPATH\Views\students\edit.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "student_id"', 'C:\\Users\\cathe\\OneDrive\\Desktop\\Dizon Catherin Finals\\app\\Views\\students\\edit.php', 12)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\Users\\cathe\\OneDrive\\Desktop\\Dizon Catherin Finals\\app\\Views\\students\\edit.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('students/edit', [], true)
+ 5 APPPATH\Controllers\StudentsController.php(47): view('students/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\StudentsController->editStudent('16')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentsController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\cathe\\OneDrive\\Desktop\\Dizon Catherin Finals\\public\\index.php')
+CRITICAL - 2023-05-26 12:16:48 --> Undefined array key "student_profile"
+in APPPATH\Views\students\edit.php on line 40.
+ 1 APPPATH\Views\students\edit.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "student_profile"', 'C:\\Users\\cathe\\OneDrive\\Desktop\\Dizon Catherin Finals\\app\\Views\\students\\edit.php', 40)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\Users\\cathe\\OneDrive\\Desktop\\Dizon Catherin Finals\\app\\Views\\students\\edit.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('students/edit', [], true)
+ 5 APPPATH\Controllers\StudentsController.php(47): view('students/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\StudentsController->editStudent('16')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentsController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\cathe\\OneDrive\\Desktop\\Dizon Catherin Finals\\public\\index.php')
+INFO - 2023-05-26 12:17:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-26 12:17:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-26 12:17:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-26 12:17:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-26 12:17:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-26 12:17:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-26 12:18:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-26 12:18:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-26 12:18:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-26 12:19:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-26 12:19:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-26 12:19:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-26 12:19:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-26 12:20:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-26 12:20:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-26 12:26:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-26 12:27:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-26 12:27:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-26 12:28:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-26 12:28:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-26 12:28:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-26 12:28:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-26 12:28:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-26 12:28:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-26 12:28:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-26 12:28:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
